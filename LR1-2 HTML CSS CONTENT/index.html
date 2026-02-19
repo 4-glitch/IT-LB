@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<title>Мій навчальний сайт | Головна</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="description" content="Навчальний багатомовний сайт про автора, захоплення та галерею відповідно до технічного завдання" />
+	<meta name="keywords" content="навчальний сайт, портфоліо, автор, захоплення, галерея" />
+	<meta name="author" content="Student" />
+
+	<!-- Favicon (вимога ТЗ: графічні елементи) -->
+	<link rel="icon" type="image/x-icon" href="assets/images/design/favicon.ico" />
+
+	<!-- Основні стилі шаблону -->
+	<link rel="stylesheet" href="assets/css/main.css" />
+
+	<!-- Власні стилі (вимога п.3 ТЗ) -->
+	<style>
+		.lang-switch {
+			margin-top: 10px;
+			font-size: 14px;
+		}
+		.highlight {
+			background: yellow;
+			font-weight: bold;
+		}
+		.big-text {
+			font-size: 20px;
+			color: #c0392b;
+		}
+	</style>
+</head>
+<body class="homepage is-preload">
+<div id="page-wrapper">
+
+	<!-- Header -->
+	<section id="header">
+		<div class="container">
+
+			<!-- Logo (графічний елемент дизайну) -->
+			<h1 id="logo">
+				<a href="index.html">
+					<img src="images/design/logo.svg" alt="Логотип сайту" style="height:60px;">
+				</a>
+			</h1>
+
+			<p class="big-text">
+				Навчальний вебсайт студента / Educational Student Website
+			</p>
+
+			<div class="lang-switch">
+				<strong>Мова:</strong> UA / EN
+			</div>
+
+			<!-- Nav (виправлено під карту сайту ТЗ) -->
+			<nav id="nav">
+				<ul>
+					<li>
+						<a class="icon solid fa-home" href="index.html">
+							<span>Головна / Home</span>
+						</a>
+					</li>
+					<li>
+						<a class="icon solid fa-user" href="pages/author.html">
+							<span>Про автора / About Author</span>
+						</a>
+					</li>
+					<li>
+						<a class="icon solid fa-heart" href="pages/hobbies.html">
+							<span>Захоплення / Hobbies</span>
+						</a>
+					</li>
+					<li>
+						<a class="icon solid fa-images" href="pages/gallery.html">
+							<span>Галерея / Gallery</span>
+						</a>
+					</li>
+					<li>
+						<a class="icon solid fa-envelope" href="pages/contacts.html">
+							<span>Контакти / Contacts</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+
+		</div>
+	</section>
+
+	<!-- Features -->
+	<section id="features">
+		<div class="container">
+			<header>
+				<!-- а) Заголовок рівня 1 -->
+				<h1>Ласкаво просимо на мій навчальний вебсайт</h1>
+				<h2>Welcome to my educational website</h2>
+			</header>
+
+			<div class="row aln-center">
+				<div class="col-4 col-6-medium col-12-small">
+					<section>
+						<a href="pages/author.html" class="image featured">
+							<img src="images/author.jpg" alt="Про автора" />
+						</a>
+						<header>
+							<h3>Про автора / About Me</h3>
+						</header>
+						<p>
+							Ця сторінка містить моє <strong>резюме</strong>, фото та
+							особисту інформацію двома мовами відповідно до вимог ТЗ.
+						</p>
+					</section>
+				</div>
+
+				<div class="col-4 col-6-medium col-12-small">
+					<section>
+						<a href="pages/hobbies.html" class="image featured">
+							<img src="images/hobbies.jpg" alt="Захоплення" />
+						</a>
+						<header>
+							<h3>Мої захоплення / My Hobbies</h3>
+						</header>
+						<p>
+							Опис моїх інтересів, текстовий контент,
+							списки, таблиці та <span class="highlight">структурована інформація</span>.
+						</p>
+					</section>
+				</div>
+
+				<div class="col-4 col-6-medium col-12-small">
+					<section>
+						<a href="pages/gallery.html" class="image featured">
+							<img src="images/gallery.jpg" alt="Галерея" />
+						</a>
+						<header>
+							<h3>Галерея / Gallery</h3>
+						</header>
+						<p>
+							Галерея зображень однакового розміру з мініатюрами,
+							що відповідає вимогам індивідуального завдання.
+						</p>
+					</section>
+				</div>
+
+				<div class="col-12">
+					<ul class="actions">
+						<li>
+							<a href="pages/author.html" class="button icon solid fa-file">
+								Перейти до резюме / View Resume
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Banner -->
+	<section id="banner">
+		<div class="container">
+			<p>
+				<strong>Навчальний проєкт</strong> створений відповідно до технічного завдання:<br />
+				HTML5, UTF-8, багатомовність, структурований контент та адаптивний дизайн.
+			</p>
+		</div>
+	</section>
+
+	<!-- Main -->
+	<section id="main">
+		<div class="container">
+			<div class="row">
+
+				<!-- Content -->
+				<div id="content" class="col-8 col-12-medium">
+					<article class="box post">
+						<header>
+							<h2>Опис сайту / Website Description</h2>
+						</header>
+						<a href="#" class="image featured">
+							<img src="images/author.jpg" alt="Навчальний сайт" />
+						</a>
+
+						<h3>Мета створення сайту</h3>
+						<p>
+							Даний вебсайт розроблений на базі HTML5 шаблону та адаптований
+							під вимоги технічного завдання. Використано кодування UTF-8,
+							семантичну верстку та багатомовний контент.
+						</p>
+						<p>
+							Сайт містить сторінки: про автора, захоплення, галерею та контакти.
+							Кожна сторінка має коректну структуру, навігацію та стилізацію.
+						</p>
+
+						<ul class="actions">
+							<li>
+								<a href="pages/hobbies.html" class="button icon solid fa-file">
+									Детальніше / Learn More
+								</a>
+							</li>
+						</ul>
+					</article>
+				</div>
+
+				<!-- Sidebar -->
+				<div id="sidebar" class="col-4 col-12-medium">
+					<section>
+						<ul class="divided">
+							<li>
+								<article class="box excerpt">
+									<header>
+										<span class="date">2026</span>
+										<h3><a href="pages/author.html">Резюме автора</a></h3>
+									</header>
+									<p>Особиста інформація, освіта, навички та фото.</p>
+								</article>
+							</li>
+							<li>
+								<article class="box excerpt">
+									<header>
+										<span class="date">2026</span>
+										<h3><a href="pages/gallery.html">Галерея робіт</a></h3>
+									</header>
+									<p>Зображення однакового розміру з мініатюрами.</p>
+								</article>
+							</li>
+							<li>
+								<article class="box excerpt">
+									<header>
+										<span class="date">2026</span>
+										<h3><a href="pages/contacts.html">Контакти</a></h3>
+									</header>
+									<p>Форма зворотного зв’язку та контактна інформація.</p>
+								</article>
+							</li>
+						</ul>
+					</section>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<section id="footer">
+		<div class="container">
+			<header>
+				<h2>Зв'язок / Contact</h2>
+			</header>
+			<div class="row">
+				<div class="col-6 col-12-medium">
+					<section>
+						<form method="post" action="#">
+							<div class="row gtr-50">
+								<div class="col-6 col-12-small">
+									<input name="name" placeholder="Ім'я / Name" type="text" />
+								</div>
+								<div class="col-6 col-12-small">
+									<input name="email" placeholder="Email" type="text" />
+								</div>
+								<div class="col-12">
+									<textarea name="message" placeholder="Повідомлення / Message"></textarea>
+								</div>
+								<div class="col-12">
+									<a href="#" class="form-button-submit button icon solid fa-envelope">
+										Надіслати / Send Message
+									</a>
+								</div>
+							</div>
+						</form>
+					</section>
+				</div>
+
+				<div class="col-6 col-12-medium">
+					<section>
+						<p>
+							Навчальний сайт створений відповідно до вимог:
+							<strong>HTML5</strong>, <em>UTF-8</em>, адаптивний дизайн,
+							двомовний контент та правильна структура сторінок.
+						</p>
+						<ul class="icons">
+							<li class="icon solid fa-envelope">
+								email@example.com
+							</li>
+							<li class="icon solid fa-phone">
+								+380-00-000-0000
+							</li>
+						</ul>
+					</section>
+				</div>
+			</div>
+		</div>
+
+		<div id="copyright" class="container">
+			<ul class="links">
+				<li>&copy; 2026 Навчальний сайт. Усі права захищені.</li>
+				<li>Design base: HTML5 UP (modified for academic task)</li>
+			</ul>
+		</div>
+	</section>
+
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.dropotron.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
