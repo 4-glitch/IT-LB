@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>Мій блог</title>
+<link>http://127.0.0.1:3000/index.html</link>
+<description>Новини та статті</description>
+<language>uk</language>
+<item>
+<title>Нова стаття про веб-розробку</title>
+<link>http://127.0.0.1:3000/about.html</link>
+<description>Детальний огляд сучасних технологій</description>
+<pubDate>Mon, 08 Mar 2025 10:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Огляд CSS Grid</title>
+<link>http://127.0.0.1:3000/contacts.html</link>
+<description>Як використовувати CSS Grid</description>
+<pubDate>Sat, 05 Mar 2025 15:30:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
